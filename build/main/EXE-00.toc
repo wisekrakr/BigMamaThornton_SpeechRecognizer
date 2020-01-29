@@ -37,7 +37,7 @@
  [],
  False,
  False,
- 1580307031,
+ 1580307940,
  [('run.exe',
    'h:\\codering\\app_wise\\oye_speach_app\\venv\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-32bit\\run.exe',
    'EXECUTABLE')])

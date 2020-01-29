@@ -49,13 +49,13 @@ def thornton_ask(voice_data):
         search = record_audio('What should I search for?')
         url = "https://duckduckgo.com/?q=" + search
         webbrowser.get().open(url)
-        thornton_response('Here you go boss ' + search)
+        thornton_response('I found this about ' + search)
     # Retrieves specifically a certain location
     if 'locate' in voice_data:
         location = record_audio('Where are you thinking about?')
         url = "https://google.nl/maps/place/" + location + '/&amp;'
         webbrowser.get().open(url)
-        thornton_response('Here you go boss ' + location)
+        thornton_response('I found ' + location + ' for you')
     # Exit the system
     if 'now go to sleep' in voice_data:
         thornton_response('Signing off')
